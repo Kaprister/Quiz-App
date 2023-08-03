@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <AppProvider>
+      <h1 className='mainheading'>Quiz App</h1>
       <App />
     </AppProvider>
   </React.StrictMode>

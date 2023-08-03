@@ -32,6 +32,7 @@ function App() {
     answers[tempIndex] = correct_answer
   }
   return (
+      
     <main>
       <Modal />
       <section className='quiz'>
